@@ -78,7 +78,7 @@ mainScene.config = function() {
 mainScene.createBall = function() {
     // ボール作成
     this.ball= this.physics.add.image(400, 500, 'ball1');
-    this.ball.setDisplaySize(22,22);
+    this.ball.setDisplaySize(25,25);
     this.ball.setCollideWorldBounds(true);
     this.ball.setBounce(1);
 };
