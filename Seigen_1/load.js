@@ -6,7 +6,7 @@ loadScene.preload = function () {
     this.load.image('startButton', 'assets/images/start.gif');
 
     // パドル画像
-    this.load.image('paddle1','./assets/images/paddle1.png');
+    this.load.image('paddle1','./assets/images/paddle2.png');
     this.load.image('paddle2','./assets/images/paddle2.png');
 
     // ブロック画像
